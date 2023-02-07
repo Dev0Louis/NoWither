@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nowither",
+  "version": "${version}",
+  "name": "NoWither",
+  "description": "No no Wither",
+  "authors": [
+    "Louis"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/NoWither/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.louis.nowither.NoWither"
+    ]
+  },
+  "mixins": [
+    "NoWither.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
